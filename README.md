@@ -34,8 +34,8 @@ Documentation
 Before you start, go to the content type configuration (Structure > Content 
 types > Gallery), have a look at the Permissions and adjust them if necessary.
 
-To build an image gallery, create a Gallery content item (Content > Add content 
-> Gallery), add a Title and some Images, and save the item.
+To build an image gallery, create a Gallery content item (Content > Add 
+content > Gallery), add a Title and some Images, and save the item.
 
 Additional documentation might be added in the Wiki:
 https://github.com/backdrop-contrib/gallery_recipe/wiki/Documentation.
