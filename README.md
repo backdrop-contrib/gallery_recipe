@@ -13,8 +13,8 @@ Requirements
 - [Colorbox](https://github.com/backdrop-contrib/colorbox)
 - [HTML5 Upload](https://github.com/backdrop-contrib/html5_upload)
 
-If you install the recipe with Backdrop's Project browser, required modules 
-will be enabled automatically.
+If you install the recipe with the Backdrop project browser, you will be able 
+to install the required modules as well.
 
 
 Installation
