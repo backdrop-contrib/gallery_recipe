@@ -1,0 +1,10 @@
+type = module
+name = Gallery Recipe
+description = A recipe to build an image gallery.
+backdrop = 1.x
+
+dependencies[] = colorbox
+dependencies[] = html5_upload
+
+package = Recipes
+tags[] = Recipe

@@ -1,105 +1,67 @@
-MyModule
-========
-<!--
-The first paragraph of this file should be kept short as it will be used as the
-project summary on BackdropCMS.org. Aim for about 240 characters (three lines at
-80 characters each).
+Gallery Recipe
+==============
 
-All lines in this file should be no more than 80 characters long for legibility,
-unless including a URL or example that requires the line to not wrap.
-|<- - - - - - - This line is exactly 80 characters for reference - - - - - - ->|
+The Gallery Recipe enables you to build image galleries by creating content 
+items of type "Gallery".
 
-Detail in READMEs should be limited to the minimum required for installation and
-getting started. More detailed documentation should be moved to a GitHub wiki
-page; for example: https://github.com/backdrop-contrib/setup/wiki/Documentation.
--->
-
-MyModule enables you to...
+This module is still in an experimental state and not ready for production.
 
 
 Requirements
 ------------
-<!--
-List any dependencies here. Remove this section if not needed.
--->
 
-This module requires that the following modules are also enabled:
+- [Colorbox](https://github.com/backdrop-contrib/colorbox)
+- [HTML5 Upload](https://github.com/backdrop-contrib/html5_upload)
 
-- [Example module](https://github.com/backdrop-contrib/example_module)
-- [Dummy library](https://github.com/backdrop-contrib/dummy_library)
+If you install the recipe with Backdrop's Project browser, required modules 
+will be enabled automatically.
 
 
 Installation
 ------------
-<!--
-List the steps needed to install and configure the module. Add/remove steps as
-necessary.
--->
 
-- Install this module using the official Backdrop CMS instructions at
-  https://docs.backdropcms.org/documentation/extend-with-modules.
-
-- Visit the configuration page under Administration > Configuration > System >
-  MyModule (admin/config/system/mymodule) and enter the required information.
-
-- Additional steps go here...
+Install and enable this module using the official Backdrop CMS instructions at 
+https://docs.backdropcms.org/documentation/extend-with-modules.
+  
+Disabling and uninstalling this module will not delete the configuration that 
+the recipe provides. If you no longer wish to keep the recipes functionality, 
+you will need to remove it manually.
 
 
 Documentation
 -------------
-<!--
-Link to the repository's wiki if more documentation can be found there. Remove
-this section if not needed (and consider disabling the wiki in the repo settings
-if not used).
--->
 
-Additional documentation is located in the Wiki:
-https://github.com/backdrop-contrib/mymodule/wiki/Documentation.
+Before you start, go to the content type configuration (Structure > Content 
+types > Gallery), have a look at the Permissions and adjust them if necessary.
+
+To build an image gallery, create a Gallery content item (Content > Add content 
+> Gallery), add a Title and some Images, and save the item.
+
+Additional documentation might be added in the Wiki:
+https://github.com/backdrop-contrib/gallery_recipe/wiki/Documentation.
 
 
 Issues
 ------
-<!--
-Link to the repo's issue queue.
--->
 
 Bugs and Feature Requests should be reported in the Issue Queue:
-https://github.com/backdrop-contrib/mymodule/issues.
+https://github.com/backdrop-contrib/gallery_recipe/issues.
 
 
 Current Maintainers
 -------------------
-<!--
-List the current maintainer(s) of the module, and note if this module needs
-new/additional maintainers.
--->
 
-- [Your Name](https://github.com/username)
-- Seeking additional maintainers
+- [Olaf Grabienski](https://github.com/olafgrabienski)
 
 
 Credits
 -------
-<!--
-Give credit where credit's due.
-If this is a Drupal port, state who ported it, and who wrote the original Drupal
-module. If this module is based on another project, or uses third-party
-libraries, list them here. You can also mention any organisations/companies who
-sponsored the module's development.
--->
 
-- Ported to Backdrop CMS by [Your Name](https://github.com/username).
-- Originally written for Drupal by [Someone Else](https://github.com/username).
-- Based on [Some Other project](https://github.com/example).
-- Sponsored by [An Organization](https://example.org).
+- Written for Backdrop CMS by [Olaf Grabienski](https://github.com/olafgrabienski).
 
 
 License
 -------
-<!--
-Mention what license this module is released under, and where people can find
-it.
--->
 
 This project is GPL v2 software.
 See the LICENSE.txt file in this directory for complete text.
