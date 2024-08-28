@@ -36,15 +36,19 @@
     "display": {
         "default": {
             "label": "hidden",
-            "type": "image",
+            "type": "colorbox",
             "weight": "1",
             "settings": {
-                "image_style": "medium",
-                "image_link": "",
-                "image_float": "left",
-                "image_load": "auto"
+                "colorbox_node_style": "medium",
+                "colorbox_node_style_first": "medium",
+                "colorbox_image_style": "card",
+                "colorbox_gallery": "post",
+                "colorbox_gallery_custom": "",
+                "colorbox_caption": "auto",
+                "colorbox_caption_custom": "",
+                "colorbox_multivalue_index": null
             },
-            "module": "image"
+            "module": "colorbox"
         }
     }
 }
