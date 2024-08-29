@@ -13,8 +13,12 @@ Requirements
 - [Colorbox](https://github.com/backdrop-contrib/colorbox)
 - [HTML5 Upload](https://github.com/backdrop-contrib/html5_upload)
 
-If you install the recipe with the Backdrop project browser, you will be able 
-to install the required modules as well.
+If you install the recipe with the Project browser, Backdrop will install 
+the required modules as well.
+
+In case you already use Colorbox: The recipe will change its 'Style' from 
+"Default" to "Plain (mainly for images)". You can adjust the style in the 
+Colorbox settings (Configuration > Media > Colorbox).
 
 
 Installation
