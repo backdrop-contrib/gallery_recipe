@@ -1,0 +1,4 @@
+<?php
+  function gallery_recipe_install() {
+    config_set('colorbox.settings', 'colorbox_style', 'plain');
+  }
